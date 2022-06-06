@@ -1,0 +1,18 @@
+.cursor{
+    cursor: pointer;
+    color: white;
+}
+
+.text-decorator-none{
+    text-decoration: none;
+}
+
+.box1{
+    background-color: #cc8bbccc;
+    height: 120px;
+}
+
+.box2{
+    background-color: #cc8bbccc;
+    height: 60px;
+}

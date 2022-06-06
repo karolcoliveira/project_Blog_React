@@ -1,0 +1,20 @@
+.textos1{
+    font-weight: bold !important;
+ }
+ 
+ .imagem{
+     background-image: url(https://img.freepik.com/free-vector/group-k-pop-boys-illustration_52683-44217.jpg?t=st=1654541428~exp=1654542028~hmac=df1e619d1c45103d9048c171e83c5d22ffa5d5c526392eefe6a133d8d72fb328&w=740);
+     background-repeat: no-repeat;
+     width: 100vh;
+     min-height: 100vh;
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .text-decorator-none{
+     text-decoration: none;
+ }
+
+ .text-decorator-none Button {
+     width: 100%;
+ }
