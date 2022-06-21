@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 import { Card, CardActions, CardContent, Button, Typography } from '@material-ui/core';
 import Tema from '../../../modelos/Tema';
 import './ListaTema.css';
-import useLocalStorage from 'react-use-localstorage';
 import { useNavigate } from 'react-router-dom';
 import { busca } from '../../../servicos/Servicos';
 import { Box } from '@mui/material';
 import { useSelector } from 'react-redux';
 import { TokenState } from '../../../store/tokens/tokensReducer';
+import { toast } from 'react-toastify';
 
 function ListaTema() {
 
@@ -20,7 +20,16 @@ function ListaTema() {
 
     useEffect(() => {
         if (token == '') {
-            alert("Você precisa estar logado")
+            toast.error('Você precisa estar logado para acessar esta página!', {
+                position: "top-right",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: false,
+                draggable: false,
+                theme: 'colored',
+                progress: undefined
+            });
             navigate("/login")
         }
     }, [token])

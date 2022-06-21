@@ -1,7 +1,7 @@
 .imagem2{
-    background-image: url(https://i.imgur.com/d5bMdDJ.jpg);
+    background-image: url(https://img.freepik.com/free-vector/young-koreans-doing-finger-heart_52683-44017.jpg?t=st=1655852888~exp=1655853488~hmac=b9068e1d4ad398f1472ee4ed20aa2b43d44b142bd7ce04fbba9957ab8b41d35a&w=740);
     background-repeat: no-repeat;
-    width: 100vh;
+    width: 50vh;
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -13,4 +13,11 @@
 
 .btnCancelar{
     margin-right: 20px !important;
+    background-color: rgb(225, 150, 207) !important;
+    
+}
+
+.btnCadastrar{
+    margin-left: 20px !important;
+    background-color: rgb(136, 95, 174) !important;
 }

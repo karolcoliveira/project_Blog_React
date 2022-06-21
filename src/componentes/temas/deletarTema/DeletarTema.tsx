@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react'
 import { Card, CardActions, CardContent, Button, Typography } from '@material-ui/core';
 import './DeletarTema.css';
 import { useNavigate, useParams } from 'react-router-dom';
-import useLocalStorage from 'react-use-localstorage';
 import { buscaId, deleteId } from '../../../servicos/Servicos';
 import Tema from '../../../modelos/Tema';
 import { Box } from '@mui/material';
 import { useSelector } from 'react-redux';
 import { TokenState } from '../../../store/tokens/tokensReducer';
+import { toast } from 'react-toastify';
 
 
 function DeletarTema() {
@@ -21,7 +21,16 @@ function DeletarTema() {
 
     useEffect(() => {
         if (token == "") {
-            alert("Você precisa estar logado")
+            toast.error('Você precisa estar logado para acessar esta página!', {
+                position: "top-right",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: false,
+                draggable: false,
+                theme: 'colored',
+                progress: undefined
+            });
             navigate("/login")
 
         }
@@ -48,7 +57,16 @@ function DeletarTema() {
                 'Authorization': token
             }
         });
-        alert('Tema deletado com sucesso');
+        toast.success('Tema deletado com sucesso!', {
+            position: "top-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: false,
+            draggable: false,
+            theme: 'colored',
+            progress: undefined
+        });
     }
 
     function nao() {
