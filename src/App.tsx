@@ -14,7 +14,7 @@ import DeletarPostagem from './componentes/postagens/deletarPostagem/DeletarPost
 import DeletarTema from './componentes/temas/deletarTema/DeletarTema';
 import { Provider } from 'react-redux';
 import {ToastContainer} from 'react-toastify';
-import 'reac-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
 import store from './store/store';
 
 function App() {
