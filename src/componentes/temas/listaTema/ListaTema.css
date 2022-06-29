@@ -1,3 +1,24 @@
 .text-decorator-none{
     text-decoration: none;
 }
+
+.alingcards-listaTema{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-listaTema{
+    width: 350px;
+    border-radius: 10px;
+}
+
+.btnDeletarTema{
+    background-color: rgb(225, 150, 207) !important;
+    
+}
+
+.btnAtualizarTema{
+    background-color: rgb(136, 95, 174) !important;
+}

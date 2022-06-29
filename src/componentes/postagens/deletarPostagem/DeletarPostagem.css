@@ -1,0 +1,9 @@
+.bntDeletarSim{
+    margin-right: 20px !important;
+    background-color: rgb(225, 150, 207) !important;
+}
+
+.bntDeletarNao{
+    margin-left: 20px !important;
+    background-color: rgb(136, 95, 174) !important;
+}

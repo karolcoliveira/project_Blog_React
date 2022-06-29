@@ -18,3 +18,7 @@
  .text-decorator-none Button {
      width: 100%;
  }
+
+ .btnLogar{
+    background-color: rgb(136, 95, 174) !important;
+ }

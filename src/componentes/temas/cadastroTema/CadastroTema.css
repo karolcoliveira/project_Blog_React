@@ -1,3 +1,9 @@
 .topo{
     margin-top: 20px;
 }
+
+.btnCadastraTema{
+    background-color: rgb(225, 150, 207) !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}

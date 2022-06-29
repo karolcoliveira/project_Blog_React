@@ -25,7 +25,7 @@ function Footer() {
                     </Box>
                     <Box display="flex" alignItems="center" justifyContent="center">
                         
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/karolyne-c-oliveira/" target="_blank" rel="noopener noreferrer">
                             <LinkedInIcon style={{ fontSize: 60, color: "white" }} />
                         </a>
                     </Box>

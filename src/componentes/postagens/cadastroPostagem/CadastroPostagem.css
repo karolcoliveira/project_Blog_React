@@ -1,3 +1,7 @@
 .topo{
     margin-top: 20px;
 }
+
+.btnFinalizar{
+    background-color: rgb(136, 95, 174) !important;
+}
